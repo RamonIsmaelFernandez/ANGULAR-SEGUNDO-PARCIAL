@@ -1,0 +1,13 @@
+
+  
+  .fondo{
+      background-image:url("../../../assets/404.jpg");
+      height: 100vh;
+      
+      background-position: center;
+      background-size: cover;
+  }
+
+  .boton{
+      bottom: -480px;
+  }
