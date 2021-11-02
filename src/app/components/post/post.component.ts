@@ -11,9 +11,6 @@ export class PostComponent implements OnInit {
 
   filtrosPost =  '';
 
-  
-
- 
 
   ngOnInit() {
   }
