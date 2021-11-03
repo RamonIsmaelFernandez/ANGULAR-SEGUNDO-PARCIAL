@@ -9,7 +9,7 @@ export class FiltrosPipe implements PipeTransform {
 
     /* compruebo que si el argumento esta vacio o es menor a 3*/
 
-    if (arg === '' || arg.length < 3) return value;
+    /*if ( arg.length < 2) return value;*/
     const resultPosts = [];
 
     /*compruebo que coincida lo que se escribe con el argumento*/
