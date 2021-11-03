@@ -10,12 +10,13 @@ export class FiltrosPipe implements PipeTransform {
     /* compruebo que si el argumento esta vacio o es menor a 3*/
 
     /*if ( arg.length < 2) return value;*/
+    
     const resultPosts = [];
 
     /*compruebo que coincida lo que se escribe con el argumento*/
     
     for (const post of value) {
-      if (post.title.toLowerCase().indexOf(arg.toLowerCase()) > -1) {
+      if (post.title.indexOf(arg) > -1) {
         resultPosts.push(post);
       };
     };
